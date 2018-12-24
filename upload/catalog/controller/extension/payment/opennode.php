@@ -21,7 +21,7 @@ class ControllerExtensionPaymentOpennode extends Controller
     {
         \OpenNode\OpenNode::config(array(
           'auth_token'  =>  $this->config->get('payment_opennode_api_auth_token'),
-          'environment' =>  'dev',
+          'environment' =>  'live',
           'user_agent'  =>  'Opennode - OpenCart v' . VERSION . ' Extension v' . OPENNODE_OPENCART_EXTENSION_VERSION
         ));
         $this->load->model('checkout/order');
@@ -97,7 +97,7 @@ class ControllerExtensionPaymentOpennode extends Controller
           if (!empty($order_info) && !empty($on_order)) {
             $apiConfig = array(
               'auth_token' => $auth_token,
-              'environment' => 'dev',
+              'environment' => 'live',
               'user_agent' => 'Opennode - OpenCart v' . VERSION . ' Extension v' . OPENNODE_OPENCART_EXTENSION_VERSION
             );
             \OpenNode\OpenNode::config($apiConfig);
