@@ -2,7 +2,7 @@
 
 require_once(DIR_SYSTEM . 'library/opennode/opennode/init.php');
 require_once(DIR_SYSTEM . 'library/opennode/version.php');
-define('OPENNODE_CHECKOUT_PATH', 'https://opennode.co/checkout/');
+define('OPENNODE_CHECKOUT_PATH', 'https://checkout.opennode.co/');
 
 class ControllerExtensionPaymentOpennode extends Controller
 {
