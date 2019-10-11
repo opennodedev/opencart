@@ -8,11 +8,11 @@ Full setup guide: <https://medium.com/@OpenNode/how-to-accept-bitcoin-in-your-pr
 
 ## Install
 
-1. Signup at <https://opennode.co>
+1. Signup at <https://opennode.com>
 2. Download <LINK>
 3. Go to Extensions » Installer and upload opennode-opencart.ocmod.zip
 4. Go to Extensions » Extensions and from dropdown choose Payments.
 5. Find OpenNode and click Install button.
 6. In same list, find OpenNode and click Edit button.
-7. Enter your [API KEY](https://opennode.co/settings?tab=api)
+7. Enter your [API KEY](https://opennode.com/settings?tab=api)
 8. Don't forget to save. You're good to go!

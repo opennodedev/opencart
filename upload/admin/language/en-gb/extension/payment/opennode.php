@@ -22,4 +22,4 @@ $_['help_total'] = 'The checkout total the order must reach before this payment 
 $_['error_permission'] = 'Warning: You do not have permission to modify the extension!';
 $_['error_composer'] = 'Unable to load opennode library. Please download a compiled vendor folder or run composer.';
 
-$_['text_opennode'] = '<a href="https://opennode.co/" target="_blank" rel="noopener"><img src="view/image/payment/opennode.png" alt="OpenNode" title="OpenNode" /></a>';
+$_['text_opennode'] = '<a href="https://opennode.com/" target="_blank" rel="noopener"><img src="view/image/payment/opennode.png" alt="OpenNode" title="OpenNode" /></a>';
